@@ -1,0 +1,29 @@
+.root{
+    -fx-font-size: 20px;
+    -fx-font-family: "Palatino Linotype";
+}
+
+.button {
+  -fx-background-color: #2B56AC;
+  -fx-border: none;
+  -fx-text-fill: white;
+  -fx-padding: 15px 32px;
+  -fx-text-align: center;
+  -fx-text-decoration: none;
+  -fx-display: inline-block;
+  -fx-font-size: 20px;
+  -fx-margin: 4px 2px;
+  -fx-cursor: pointer;
+  -fx-font-family: "Palatino Linotype";
+}
+
+.hbox {
+   -fx-padding: 15;
+}
+
+
+.text-field{
+    -fx-min-width: 80;
+    -fx-min-height: 55;
+    -fx-padding: 15;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: #F1F3F7;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+
+        <Button id="#round" fx:id="rb" layoutX="499.0" layoutY="361.0" mnemonicParsing="false" onAction="#rbAction" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 30; -fx-background-color: white;">
+            <effect>
+                <DropShadow />
+            </effect>
+
+         <graphic>
+            <ImageView fitHeight="42.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Korisnik/IdeaProjects/VisualiseRBT/src/sample/arrow.png" />
+               </image></ImageView>
+         </graphic>
+        </Button>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="50.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@unsa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="486.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ETF_logo.png" />
+         </image></ImageView>
+      <Label layoutX="242.0" layoutY="57.0" text="Univerzitet u Sarajevu">
+         <font>
+            <Font name="Palatino Linotype Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="238.0" layoutY="77.0" text="Elektrotehnički fakultet">
+          <font>
+              <Font name="Palatino Linotype Bold" size="14.0" />
+          </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="97.0" text="Odsjek za Računarstvo i Informatiku">
+        <font>
+            <Font name="Palatino Linotype Bold" size="14.0" />
+        </font>
+        </Label>
+      <Label layoutX="150.0" layoutY="181.0" text="Projekat u sklopu završnog rada prvog ciklusa">
+         <font>
+            <Font name="Palatino Linotype" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="231.0" text="VisualizeRBT">
+         <font>
+            <Font name="Palatino Linotype Bold" size="32.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
